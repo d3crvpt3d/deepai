@@ -5,8 +5,12 @@ Works only with png pictures!
 low res = fast
 high res = slow
 
-requiments:
-pip install pillow
+## How to install
+
+1. Run: `pip install -r requirements.txt`
+
+2. yoel schreib du später
+## How to use
 
 1. name picture to "original.png"
 2. 
