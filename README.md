@@ -9,7 +9,9 @@ high res = slow
 
 1. Run: `pip install -r requirements.txt`
 
-2. yoel schreib du später
+2. 
+
+
 ## How to use
 
 1. name picture to "original.png"
