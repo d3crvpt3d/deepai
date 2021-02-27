@@ -1,0 +1,2 @@
+Supervised learning:
+compare original_input to generated_output and get value from 0 to 1 how similair it is to original_output.
