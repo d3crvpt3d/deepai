@@ -6,25 +6,25 @@ pixel_values = list(im.getdata())
 
 print(im.mode)
 
-x=0
-y=0
+x = 0
+y = 0
 
-done=False
+done = False
 
-file = open('tmp/test_output.ai_rgba','w')
+file = open('tmp/test_output.ai_rgba', 'w')
 
-tmp_values =''
+tmp_values = ''
 
-while(done!=True):
+while(done != True):
     tmp_values = tmp_values + str(pixel_values[x+y])
-    x=x+1
-    if(x>=width):
-        x=0
-        file.write( tmp_values+'\n' )
-        y=y+1
+    x = x+1
+    if(x >= width):
+        x = 0
+        file.write(tmp_values+'\n')
+        y = y+1
         tmp_values = ''
-        if(y>=height):
-            done=True
+        if(y >= height):
+            done = True
 
 file.close
 
