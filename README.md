@@ -14,5 +14,5 @@ high res = slow
 
 ## How to use
 
-1. name picture to "original.png"
+1. name picture to "original_input.png"
 2. 
